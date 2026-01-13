@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumpbook - Política de Privacidad</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            min-height: 100vh;
+        }
+
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .language-selector a {
+            padding: 8px 16px;
+            background: rgba(30, 136, 229, 0.2);
+            color: #1E88E5;
+            text-decoration: none;
+            border-radius: 20px;
+            border: 1px solid #1E88E5;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .language-selector a:hover {
+            background: #1E88E5;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 40px 20px;
+            background: rgba(30, 136, 229, 0.1);
+            border-radius: 15px;
+            border: 1px solid rgba(30, 136, 229, 0.3);
+        }
+
+        h1 {
+            color: #1E88E5;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .content {
+            background: rgba(26, 31, 58, 0.6);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            color: #42A5F5;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 2px solid rgba(30, 136, 229, 0.3);
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #64B5F6;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #d0d0d0;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #d0d0d0;
+        }
+
+        strong {
+            color: #1E88E5;
+        }
+
+        a {
+            color: #42A5F5;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        a:hover {
+            border-bottom-color: #42A5F5;
+        }
+
+        .highlight-box {
+            background: rgba(30, 136, 229, 0.1);
+            border-left: 4px solid #1E88E5;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .contact-box {
+            background: rgba(30, 136, 229, 0.15);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .contact-box a {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 30px;
+            color: #888;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            .language-selector {
+                top: 10px;
+                right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <a href="index.html">English</a>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Política de Privacidad de Jumpbook</h1>
+            <p class="last-updated">Fecha de Vigencia: Enero 2026</p>
+        </header>
+
+        <div class="content">
+            <h2>Introducción</h2>
+            <p>Jumpbook ("nosotros", "nuestro" o "la aplicación") está comprometido con la protección de tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas nuestra aplicación móvil Jumpbook (la "App"). Por favor, lee esta política de privacidad cuidadosamente.</p>
+
+            <h2>Información que Recopilamos</h2>
+
+            <h3>Información Personal que Proporcionas</h3>
+            <p>Cuando te registras y usas Jumpbook, recopilamos la siguiente información:</p>
+            <ul>
+                <li><strong>Información de Cuenta</strong>: Dirección de correo electrónico, nombre para mostrar y foto de perfil</li>
+                <li><strong>Datos de Autenticación</strong>: Credenciales de inicio de sesión procesadas a través de Firebase Authentication</li>
+                <li><strong>Datos de Perfil</strong>: Número de licencia de paracaidista, nivel de experiencia, tamaño de cúpula actual y preferencias personales</li>
+            </ul>
+
+            <h3>Datos de Saltos</h3>
+            <p>La App recopila y almacena información relacionada con tus actividades de paracaidismo:</p>
+            <ul>
+                <li><strong>Registros de Saltos</strong>: Fecha, hora, ubicación (zona de salto), tipo de aeronave, tipo de salto, disciplina</li>
+                <li><strong>Métricas de Rendimiento</strong>: Altitud de salida, altitud de despliegue, tiempo de caída libre, tiempo de cúpula, velocidad máxima</li>
+                <li><strong>Detalles de Equipo</strong>: Tamaño de cúpula, tipo de equipo, modo de vuelo</li>
+                <li><strong>Observaciones</strong>: Notas personales y comentarios sobre cada salto</li>
+                <li><strong>Multimedia</strong>: Fotos y videos subidos por ti (almacenados en Firebase Storage)</li>
+            </ul>
+
+            <h3>Información Recopilada Automáticamente</h3>
+            <p>Cuando usas la App, recopilamos automáticamente:</p>
+            <ul>
+                <li><strong>Información del Dispositivo</strong>: Tipo de dispositivo, sistema operativo, identificadores únicos del dispositivo</li>
+                <li><strong>Datos de Uso</strong>: Funciones de la App accedidas, duración de sesión, patrones de interacción</li>
+                <li><strong>Datos de Rendimiento</strong>: Fallos de la App, errores e información de diagnóstico</li>
+            </ul>
+
+            <h3>Datos de Ubicación</h3>
+            <p>La App puede recopilar datos de ubicación cuando:</p>
+            <ul>
+                <li>Ingresas manualmente ubicaciones de zonas de salto para tus saltos</li>
+                <li>Utilizas funciones habilitadas con GPS (si están implementadas)</li>
+            </ul>
+            <p>No recopilamos datos de ubicación continua en segundo plano.</p>
+
+            <h3>Integración con Jump Tracker</h3>
+            <p>Si utilizas la función Jump Tracker:</p>
+            <ul>
+                <li><strong>Datos de Bluetooth</strong>: Información de conexión para emparejar con dispositivos de rastreo externos</li>
+                <li><strong>Datos de Sensores</strong>: Altitud, velocidad y datos de tiempo recibidos de tu dispositivo de rastreo</li>
+            </ul>
+
+            <h3>Iniciar Sesión con Apple</h3>
+            <ul>
+                <li>Apple puede proporcionar una dirección de correo electrónico de retransmisión privada</li>
+                <li>Jumpbook no accede a tu Apple ID ni a los detalles personales de tu cuenta de Apple</li>
+                <li>Identificador de usuario proporcionado por el servicio de autenticación de Apple</li>
+            </ul>
+
+            <h2>Cómo Usamos tu Información</h2>
+
+            <h3>Funcionalidad Principal</h3>
+            <ul>
+                <li><strong>Gestión de Cuenta</strong>: Crear y mantener tu cuenta de usuario</li>
+                <li><strong>Registro de Saltos</strong>: Registrar, almacenar y mostrar tu historial de saltos</li>
+                <li><strong>Estadísticas</strong>: Calcular y mostrar métricas de rendimiento, tendencias y logros</li>
+                <li><strong>Funciones Sociales</strong>: Habilitar aplicaciones de instructor y funciones administrativas</li>
+            </ul>
+
+            <h3>Mejora de la App</h3>
+            <ul>
+                <li><strong>Análisis</strong>: Comprender cómo los usuarios interactúan con la App</li>
+                <li><strong>Corrección de Errores</strong>: Identificar y resolver problemas técnicos</li>
+                <li><strong>Desarrollo de Funciones</strong>: Planificar e implementar nuevas funciones</li>
+            </ul>
+
+            <h3>Comunicación</h3>
+            <ul>
+                <li><strong>Actualizaciones del Servicio</strong>: Notificarte sobre cambios o actualizaciones importantes</li>
+                <li><strong>Estado de Instructor</strong>: Comunicar sobre aplicaciones y cambios de estado de instructor</li>
+                <li><strong>Acciones Administrativas</strong>: Notificar a los administradores sobre aplicaciones pendientes y gestión de usuarios</li>
+            </ul>
+
+            <h2>Almacenamiento y Seguridad de Datos</h2>
+
+            <h3>Servicios de Firebase</h3>
+            <p>Tus datos se almacenan utilizando los servicios de Google Firebase:</p>
+            <ul>
+                <li><strong>Firebase Authentication</strong>: Autenticación segura de usuarios</li>
+                <li><strong>Cloud Firestore</strong>: Base de datos cifrada para registros de saltos y perfiles de usuario</li>
+                <li><strong>Firebase Storage</strong>: Almacenamiento seguro para fotos y videos</li>
+                <li><strong>Firebase Cloud Functions</strong>: Procesamiento de datos del lado del servidor</li>
+            </ul>
+
+            <h3>Medidas de Seguridad</h3>
+            <p>Implementamos medidas de seguridad estándar de la industria:</p>
+            <ul>
+                <li><strong>Cifrado</strong>: Datos cifrados en tránsito y en reposo</li>
+                <li><strong>Controles de Acceso</strong>: Controles de acceso basados en roles (usuario, instructor, administrador)</li>
+                <li><strong>Actualizaciones Regulares</strong>: Parches y actualizaciones de seguridad aplicados regularmente</li>
+                <li><strong>Autenticación Segura</strong>: Firebase Authentication con correo electrónico/contraseña</li>
+            </ul>
+
+            <h3>Retención de Datos</h3>
+            <ul>
+                <li><strong>Cuentas Activas</strong>: Los datos se conservan mientras tu cuenta esté activa</li>
+                <li><strong>Cuentas Eliminadas</strong>: Los datos se eliminan permanentemente dentro de los 30 días posteriores a la eliminación de la cuenta</li>
+                <li><strong>Retención de Respaldo</strong>: Respaldos cifrados retenidos por 90 días para recuperación ante desastres</li>
+            </ul>
+
+            <h2>Compartir y Divulgar Información</h2>
+
+            <div class="highlight-box">
+                <h3>No Vendemos tus Datos</h3>
+                <p>No vendemos, comercializamos ni alquilamos tu información personal a terceros.</p>
+            </div>
+
+            <h3>Uso Compartido Limitado</h3>
+            <p>Podemos compartir tu información solo en estas circunstancias:</p>
+            <ul>
+                <li><strong>Instructores</strong>: Si solicitas ser instructor, los administradores pueden ver los detalles de tu aplicación</li>
+                <li><strong>Administradores</strong>: Los administradores de la App pueden ver perfiles de usuario y registros de saltos con fines de moderación</li>
+                <li><strong>Proveedores de Servicios</strong>: Firebase (Google) procesa datos en nuestro nombre bajo acuerdos estrictos de protección de datos</li>
+                <li><strong>Requisitos Legales</strong>: Cuando lo exija la ley o para proteger derechos y seguridad</li>
+            </ul>
+
+            <h3>Información Pública</h3>
+            <p>La siguiente información puede ser visible para otros usuarios (si las funciones sociales están habilitadas):</p>
+            <ul>
+                <li>Nombre para mostrar</li>
+                <li>Foto de perfil</li>
+                <li>Estado de instructor</li>
+            </ul>
+
+            <h2>Tus Derechos y Opciones</h2>
+
+            <h3>Acceso y Control</h3>
+            <p>Tienes derecho a:</p>
+            <ul>
+                <li><strong>Acceso</strong>: Ver todos tus datos personales y registros de saltos dentro de la App</li>
+                <li><strong>Corrección</strong>: Editar tu información de perfil y detalles de saltos</li>
+                <li><strong>Eliminación</strong>: Eliminar registros de saltos individuales o tu cuenta completa</li>
+                <li><strong>Exportación</strong>: Solicitar una copia de tus datos en formato portable</li>
+                <li><strong>Idioma</strong>: Elegir entre inglés y español para la interfaz de la App</li>
+            </ul>
+
+            <h3>Configuración de Cuenta</h3>
+            <p>Puedes controlar:</p>
+            <ul>
+                <li><strong>Visibilidad del Perfil</strong>: Gestionar qué información se muestra</li>
+                <li><strong>Preferencia de Idioma</strong>: Cambiar el idioma de la App en cualquier momento</li>
+                <li><strong>Notificaciones</strong>: Controlar las preferencias de comunicación</li>
+            </ul>
+
+            <h3>Eliminación de Datos</h3>
+            <p>Para eliminar tus datos:</p>
+            <ol>
+                <li>Ve a Configuración → Ajustes de Cuenta</li>
+                <li>Selecciona "Eliminar Cuenta"</li>
+                <li>Confirma la eliminación (esta acción no se puede deshacer)</li>
+            </ol>
+            <p>Todos tus datos serán eliminados permanentemente dentro de los 30 días.</p>
+            
+            <p>También puedes solicitar la eliminación de tu cuenta y datos contactando a: <a href="mailto:contact.jumpbook@gmail.com">contact.jumpbook@gmail.com</a></p>
+            <p>Tu solicitud será procesada en un plazo razonable.</p>
+
+            <h2>Privacidad de Menores</h2>
+            <p>Jumpbook no está destinado a usuarios menores de 18 años (o la edad mínima para el paracaidismo en tu jurisdicción). No recopilamos intencionalmente información personal de menores. Si nos enteramos de que hemos recopilado datos de un menor, los eliminaremos de inmediato.</p>
+
+            <h2>Transferencias Internacionales de Datos</h2>
+            <p>Tu información puede ser transferida y procesada en países distintos a tu país de residencia, incluidos los Estados Unidos donde se encuentran los servidores de Firebase. Nos aseguramos de que existan salvaguardas apropiadas para proteger tu información.</p>
+
+            <h2>Servicios de Terceros</h2>
+            <p>Jumpbook utiliza los siguientes servicios:</p>
+
+            <h3>Firebase (Google LLC)</h3>
+            <p>Utilizamos los servicios de Firebase proporcionados por Google para:</p>
+            <ul>
+                <li>Autenticación y almacenamiento en base de datos</li>
+                <li>Almacenamiento seguro de archivos para fotos y videos</li>
+                <li>Procesamiento de datos del lado del servidor</li>
+            </ul>
+            <p>Las prácticas de privacidad de Firebase se rigen por la <a href="https://policies.google.com/privacy?hl=es" target="_blank">Política de Privacidad de Google</a>.</p>
+
+            <h3>Iniciar Sesión con Apple</h3>
+            <p>Cuando lo habilita el usuario, se utiliza el servicio de autenticación de Apple de acuerdo con la <a href="https://www.apple.com/legal/privacy/" target="_blank">Política de Privacidad de Apple</a>.</p>
+
+            <h3>Sin Publicidad de Terceros</h3>
+            <p>Jumpbook <strong>no vende, alquila ni comparte datos personales</strong> con terceros. No utilizamos servicios de publicidad de terceros ni cookies de rastreo.</p>
+
+            <h2>Cambios a esta Política de Privacidad</h2>
+            <p>Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos sobre cualquier cambio material mediante:</p>
+            <ul>
+                <li>Actualización de la fecha de "Última Actualización" en la parte superior de esta política</li>
+                <li>Mostrar una notificación dentro de la App</li>
+                <li>Enviar un correo electrónico a tu dirección de correo registrada</li>
+            </ul>
+            <p>Tu uso continuado de la App después de los cambios constituye la aceptación de la política actualizada.</p>
+
+            <h2>Tus Derechos de Privacidad en California</h2>
+            <p>Si eres residente de California, tienes derechos adicionales bajo la Ley de Privacidad del Consumidor de California (CCPA):</p>
+            <ul>
+                <li>Derecho a saber qué información personal se recopila</li>
+                <li>Derecho a saber si la información personal se vende o divulga</li>
+                <li>Derecho a optar por no participar en la venta de información personal (no vendemos datos)</li>
+                <li>Derecho a la eliminación de información personal</li>
+                <li>Derecho a la no discriminación por ejercer tus derechos</li>
+            </ul>
+
+            <h2>Cumplimiento del RGPD (Usuarios de la UE)</h2>
+            <p>Si te encuentras en el Espacio Económico Europeo (EEE), tienes derechos bajo el Reglamento General de Protección de Datos (RGPD):</p>
+            <ul>
+                <li><strong>Base Legal</strong>: Procesamos tus datos basándonos en el consentimiento y la ejecución del contrato</li>
+                <li><strong>Derechos de Protección de Datos</strong>: Acceso, rectificación, supresión, restricción, portabilidad, oposición</li>
+                <li><strong>Retirada del Consentimiento</strong>: Puedes retirar el consentimiento en cualquier momento</li>
+                <li><strong>Autoridad de Supervisión</strong>: Puedes presentar una queja ante tu autoridad local de protección de datos</li>
+            </ul>
+
+            <h2>Contáctanos</h2>
+            <p>Si tienes preguntas sobre esta Política de Privacidad o nuestras prácticas de datos, contáctanos:</p>
+            
+            <div class="contact-box">
+                <p>📧 <a href="mailto:contact.jumpbook@gmail.com">contact.jumpbook@gmail.com</a></p>
+                <p><strong>GitHub</strong>: <a href="https://github.com/pab1987/jumpbook" target="_blank">github.com/pab1987/jumpbook</a></p>
+            </div>
+
+            <h2>Consentimiento</h2>
+            <p>Al usar Jumpbook, consientes esta Política de Privacidad y aceptas sus términos.</p>
+
+            <div class="highlight-box">
+                <p><strong>Nota</strong>: Esta política de privacidad debe ser revisada por un profesional legal para garantizar el cumplimiento de todas las leyes y regulaciones aplicables en tu jurisdicción.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Jumpbook. Todos los derechos reservados.</p>
+            <p><a href="https://github.com/pab1987/jumpbook" target="_blank">Repositorio en GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
